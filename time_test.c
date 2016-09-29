@@ -8,7 +8,7 @@
 #define CLOCK_ID CLOCK_MONOTONIC_RAW
 #define ONE_SEC 1000000000.0
 #define loop 1000000
-#define times 500
+#define times 50
 
 
 void clz_time(int num,FILE *fp)

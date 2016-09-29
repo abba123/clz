@@ -76,7 +76,7 @@ uint8_t clz_recursive(uint32_t x,int i)
     if (x==(x<<i)>>i)
         return i+clz_recursive(x<<i,i>>1);
     else
-        return clz_recursive(x,i>>1);
+        return clz_recursive(x,i>>1);	
 }
 
 uint8_t clz_harley(uint32_t x)
